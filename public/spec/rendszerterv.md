@@ -20,6 +20,12 @@
 
 ## Architekturális terv
 
+A játék megvalósítását a Unity nevű programmal tervezzük megvalósítani.
+
+Ezeket a scripteket amennyire csak lehet külön fájlokba írva készítjük, és
+úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
+és könnyebb bővítés érdekében. Az egyedi eseteket leszámítva.
+
 
 ## Adatbázis terv
 

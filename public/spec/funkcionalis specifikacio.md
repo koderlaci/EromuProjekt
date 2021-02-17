@@ -15,6 +15,9 @@
 ## Igényelt üzleti folyamatok
 
 
+## Használati esetek
+
+
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 
 

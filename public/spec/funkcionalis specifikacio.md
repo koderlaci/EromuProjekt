@@ -24,6 +24,12 @@ van benne kihívás és hosszan tartó szórakoztató játékélmény.
 - Nagyob, közösségre alapuló projektek lehetőségeinek megteremtése
 - Többféle eszközről is játszható játék, ami növeli a népszerűséget
 - Új játékosbázis kialakítása
+### Előnyök
+- Új játékosbázis
+- Régi játékosok visszacsábítása a platformra
+- Új promóciós lehetőségek
+- Nagy profit
+- A játék jellegéből adódóan: népszerűség
 
 ## Használati esetek
 

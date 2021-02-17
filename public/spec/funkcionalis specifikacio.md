@@ -13,6 +13,10 @@ A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. M
 
 
 ## Igényelt üzleti folyamatok
+A játékokkal kapcsolatos elvárások és igények kielégítésére az ügyfél ötlete tökéletesen alkalmas.
+Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek iránt, épp ezért a cél egy ilyen jellegű játék létrehozása. Mely alkalmazkodik az eddigi üzleti folyamatokhoz: 
+van benne kihívás és hosszan tartó szórakoztató játékélmény.
+
 
 
 ## Használati esetek
@@ -25,7 +29,7 @@ A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. M
 
 
 ## Forgatókönyv
-asd
+
 
 ## Funkció-követelmény megfeleltetés
 

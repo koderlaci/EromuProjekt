@@ -18,7 +18,7 @@ A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. M
 
 
 ## Jelenlegi üzleti folyamatok modellje
-Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért ezek más fajtájú, és más hangulatú játékok. Így ewz a hiánypótló új ötlet régi köntösben rengeteg új játékost és profitot teremthet.
+Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért ezek más fajtájú, és más hangulatú játékok. Így ez a hiánypótló új ötlet régi köntösben rengeteg új játékost és profitot teremthet.
 
 ## Igényelt üzleti folyamatok
 
@@ -30,6 +30,8 @@ Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért eze
 
 
 ## Fogalomtár
-
+-PC: Personal Computer
+-2D: 2 dimenziós játék
+-Platformer: A platformjáték egy videójáték-műfaj, az akciójáték alműfaja. A játékos által irányított karakternek platformokon keresztül kell ugrálnia és/vagy különböző akadályokat kell átugrania. A játékos feladata, hogy a karakterével megfelelő időben ugorjon, hogy tovább tudjon menni vagy ne essen le.
 
 	

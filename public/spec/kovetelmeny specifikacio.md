@@ -18,7 +18,7 @@ A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. M
 
 
 ## Jelenlegi üzleti folyamatok modellje
-
+Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért ezek más fajtájú, és más hangulatú játékok. Így ewz a hiánypótló új ötlet régi köntösben rengeteg új játékost és profitot teremthet.
 
 ## Igényelt üzleti folyamatok
 

@@ -17,6 +17,9 @@
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 
 
+## Jelenlegi üzleti folyamatok modellje
+
+
 ## Igényelt üzleti folyamatok
 
 

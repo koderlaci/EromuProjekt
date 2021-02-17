@@ -41,7 +41,7 @@ van benne kihívás és hosszan tartó szórakoztató játékélmény.
 
 
 ## Forgatókönyv
-
+Indításkor egy menü fogadja a játékost. Ahol indíthat új játékot, bellíthat megfelelő hang, kép és játék beállításokat. Vagy kiléphet. Új játék indításakor a karakter és a pálya megjelenik. Majd elindul a játék. A pálya közben ellenfelekkel kell hadakozni, és ügyességi akadályokat teljesíteni. Majd a pálya végén teljesítettnek minősül.
 
 ## Funkció-követelmény megfeleltetés
 

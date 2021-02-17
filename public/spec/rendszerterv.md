@@ -21,7 +21,16 @@
 ## Architekturális terv
 
 
+## Adatbázis terv
+
+
 ## Implementációs terv
 
 
+## Tesztterv
+
+
 ## Telepítési terv
+
+
+## Karbantartási terv

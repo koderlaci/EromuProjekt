@@ -58,3 +58,7 @@ képernyőtervek szerint megvalósulnia. Minden funkcióját betöltenie.
 
 
 ## Karbantartási terv
+Ellenőrizni kell a játékosok számítógépeihez való 
+kompatibilitást és reszponzivitást. Majd ha nem valósul meg 
+kijavítani a teljes funcionalitást.
+Valamint a játékosok visszajelzései alapján a folyamatokban kialakuló problémák kiértékelése és azok megoldására kell törekedni. A játékosok új igényei és a játék naprakész tartása érdekében folyamatos módosítások. A játék hosszútávon is magas élvezeti faktoron valóü tartása érdekében. 

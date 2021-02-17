@@ -17,7 +17,13 @@ A játékokkal kapcsolatos elvárások és igények kielégítésére az ügyfé
 Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek iránt, épp ezért a cél egy ilyen jellegű játék létrehozása. Mely alkalmazkodik az eddigi üzleti folyamatokhoz: 
 van benne kihívás és hosszan tartó szórakoztató játékélmény.
 
-
+### Célok
+- Átlátható felhasználói felület készítése a játékhoz
+- Élvezetes játékmenet megvalósítása
+- A platformer játékok színesítése
+- Nagyob, közösségre alapuló projektek lehetőségeinek megteremtése
+- Többféle eszközről is játszható játék, ami növeli a népszerűséget
+- Új játékosbázis kialakítása
 
 ## Használati esetek
 

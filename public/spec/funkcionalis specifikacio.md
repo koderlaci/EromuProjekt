@@ -121,6 +121,16 @@ van benne kihívás és hosszan tartó szórakoztató játékélmény.
 ### Ábra
 ![Képernyőterv](../images/UserCase.png)
 
+### Leírás
+- A játék megnyitását követően a főmenüt látja a felhasználó
+- Innen folytathatja a félbehagyott játék mentett állását, vagy...
+- ... kiléphet a játékból, vagy...
+- ... pályát választhat (innen vissza is tud lépni a főmenübe), vagy...
+- ... a beállítások menüben beállíthatja az irányításokat
+- Folytatás vagy pályaválasztás után elérhetők a játékbeli funkciók
+- A 'p' játék közbeni megnyomásával megáll a játék és egy menü jelenik meg
+- Ebben a menüben ugyanazon funkciók hajthatók végre, mint a főmenüben, de "pályaválasztás" gomb helyett "mentés" gomb van, ami elmenti a játék pillanatnyi állását (a legutóbbi checkpointtól számítva)
+
 
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 - A felhasználó a "Start" gombra kattintva elkezdheti a játékot.

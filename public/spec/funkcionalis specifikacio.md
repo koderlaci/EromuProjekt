@@ -51,7 +51,9 @@ van benne kihívás és hosszan tartó szórakoztató játékélmény.
 
 
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
-
+- A felhasználó a "Start" gombra kattintva elkezdheti a játékot.
+- A felhasználó a játék elején korlátozott mennyiségű fegyverekhez/felszerelésekhez van hozzáférése.
+- A felhasználó a fegyvereket/felszereléseket a játékon való végighaladás közben gyarapíthatja.
 
 ## Képernyőtervek
 

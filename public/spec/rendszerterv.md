@@ -75,8 +75,29 @@ képernyőtervek szerint megvalósulnia. Minden funkcióját betöltenie.
 
 ## Telepítési terv
 
+Asztali alkalmazás.
+
+Mire van szükségünk ahhoz, hogy használni tudjuk?
+- Számítógép
+- Internet(A letöltés és vásárlás miatt)
+
+- Böngésző program(A letöltés és vásárlás miatt):
+	- Google Chrome
+	- Safari
+	- Opera
+	- Mozilla Firefox
+
+Hogyan telepítsük?
+A vásárlást követően, a szolgáltató oldalán elérhetővé válik a játék telepítőjének letöltése.
+Letöltés után:
+	- Elindítjuk a telepítőt
+	- Elfogadjuk a felhasználási feltételeket
+	- Kiválasztjuk a mappát, ahová telepíteni szeretnénk
+	- Telepítés végeztével bezárjuk a telepítőt
+	- Elindítjuk a játékot és már játszhatunk is
 
 ## Karbantartási terv
+
 Ellenőrizni kell a játékosok számítógépeihez való 
 kompatibilitást és reszponzivitást. Majd ha nem valósul meg 
 kijavítani a teljes funcionalitást.

@@ -67,6 +67,12 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Kúszás
 - Egér irányába való lövés
 
+### Képességrendszer
+- Képességpontokat lehet gyűjteni
+- Ágakon lehet képességeket fejleszteni
+- Szintek alapján lehet fejleszteni
+- Bónuszokat adnak, ágakon lehet továbbvinni őket
+
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 ### Rendszerszabványok:

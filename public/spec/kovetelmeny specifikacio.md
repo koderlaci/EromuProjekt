@@ -76,6 +76,10 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Atom
 - Notepad++
 
+#### Nyelvek és könyvtárak
+- C#
+- UnityEngine
+
 ## Jelenlegi üzleti folyamatok modellje
 Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért ezek más fajtájú, és más hangulatú játékok. Így ez a hiánypótló új ötlet régi köntösben rengeteg új játékost és profitot teremthet.
 

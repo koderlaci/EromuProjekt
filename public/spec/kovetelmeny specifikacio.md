@@ -17,6 +17,7 @@ A játék harcrendszere nagyon változatos, közelharci és távolsági egyarán
 implementálni a játékba, amelyeket a felhasználó majd a kalandjai során, a pályákon végighaladva oldhat, néhány fegyver megszerzése viszont szerencsét kíván.
 A kezdő fegyver egy kezdő pisztoly és egy kezdő bunkós bot lesz majd a karakternek.
 A felhasználó célja, pedig a pályákon való végighaladás lesz, hogy kiderítse, mi is rejlik valójában az atomerőmű katasztrófája hátterében.
+A pályák előtt kiválaszthatjuk, hogy a karakterünk milyen felszerelést hozzon magával legközelebb.
 Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az adott pályát kell előről kezdenünk.
 
 ## Funkcionális követelmények
@@ -33,6 +34,17 @@ Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért eze
 
 ## Követelménylista
 
+### Funkcionális követelmények
+- Mozgás: A karakternek képesnek kell lennie a nyilak vagy "WASD" gombok segítségével mozognia.
+- Tüzelés: A karakternek képesnek kell lennie a "szóköz" gomb megnyomásával elsütni az éppen kézben tartott fegyverét.
+- Újratöltés: A karakternek képesnek kell lennie az "R" gomb megnyomásával újratölteni a fegyverét.
+- Interakció: A karakternek képesnek kell lennie a pálya néhány elemével interakcióba lépni az "Enter" gomb megnyomásával.
+- Felszerelés: A karakternek a következő pálya előtt mindig kiválaszthatjuk, hogy milyen felszerelést hozzon magával legközelebb.
+
+### Nem funkcionális követelmények
+- Ikonok használata a fegyverek és felszerelések megkülönböztetésére.
+- Felhasználóbarát grafikus interface kialakítása, melyet könnyű átlátni és kezelni.
+- Poszt-apokaliptikus hangulat megteremtése a pálya-, karakter-, felszerelés-design elemeit illetően
 
 ## Riportok
 

@@ -79,6 +79,12 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Növényeket is lehet gyűjteni
 - A pályán szétszórva itemek találhatók
 
+### Raktár
+- Itemek tárolása
+- Bővíthető (nagyobb táskával)
+- Bázison is lehet tárolni itemeket
+- Lapozható raktárabalakok
+
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 ### Rendszerszabványok:

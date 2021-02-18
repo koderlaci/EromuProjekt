@@ -91,6 +91,12 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Lehet tőlük zsákmányolni
 - Küldetésekben lehet szerepük
 
+### Barátságos NPC-k
+- Történetet viszik előrébb
+- Küldetéseket adnak
+- Lehet tőlük tárgyakat vásárolni
+- El lehet nekik adni tárgyakat
+
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 ### Rendszerszabványok:

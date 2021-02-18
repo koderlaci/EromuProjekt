@@ -1,7 +1,15 @@
 
 # Rendszerterv
-## A rendszer célja,
 
+## A rendszer célja
+A felhasználó egy olyan platformer játékkal játszhasson, amely egy posztapokaliptikus világban játszódik, ahol
+az Ózdi Atomerőmű katasztrófájának valódi történetét kell felfedezni a kalandok során.
+A felhasználónak a játék elkezdéséhel meg kell azt vásárolnia, letöltenie, majd telepítenie.
+Egyszerre csak egy játékot kezdhetünk el, ha szeretnénk újból kezdeni a játékot, akkor nem nyílik
+lehetősége a felhasználónak új játékbeli karakter készítésére, hanem a jelenlegit kell törölnie és újat indítani.
+A játék minden pálya elvégzése után mentést készít, így legközelebb azon pályán folytathatjuk, ahol abbahagytuk.
+A felhasználónak lehetősége nyílik különböző fegyverek és felszerelések szerzésére a játék során.
+Tehát a fő cél a felhasználó szórakoztatása egy történet alapú, lövöldözős platformer játékkal.
 
 ## Projektterv
 

@@ -9,7 +9,15 @@
 A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. Melyet egyedi ötletével szeretné megvalósítani. Eddigi játékok során nem találkozott még olyannal, melyben egy felrobbant atomerőművet kell elhagyni és ezzel a különös ötlettel keresett meg minket. Mely szerinte betölti ezt a "piaci rést". Ezzel az újító ötlettel szeretne piaci és anyagi előnyökhöz jutni. A játékot a legnagyobb játékosközösség miatt, és így legtöbb profit miatt PC re kell fejleszteni.
 
 ## Vágyálom rendszer
-
+Egy olyan unity alapú játékot szeretnénk készíteni, amely visszahozza számunkra a régi platformer játékok nagyszerű hangulatát, saját megvalósításunkkal egy posztapokaliptikus világban, ahol az
+Ózdi Atomerőműben történt szerencsétlenségek után játszódik a történet. Főhősünk a katasztrófa egyik túlélője, akinek meg kell találnia a módját a túlélésre.
+A program egyjátékos módban fog futni, esetleg később bővíthető lesz többjátékos móddal is.
+A program telepítését követően, regisztráció nélkül lehetőségünk nyílik a játék megkezdésére.
+A játék harcrendszere nagyon változatos, közelharci és távolsági egyaránt, ugyanis szeretnénk több kis hatótávalságú és több nagy hatótávolságú fegyvert is
+implementálni a játékba, amelyeket a felhasználó majd a kalandjai során, a pályákon végighaladva oldhat, néhány fegyver megszerzése viszont szerencsét kíván.
+A kezdő fegyver egy kezdő pisztoly és egy kezdő bunkós bot lesz majd a karakternek.
+A felhasználó célja, pedig a pályákon való végighaladás lesz, hogy kiderítse, mi is rejlik valójában az atomerőmű katasztrófája hátterében.
+Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az adott pályát kell előről kezdenünk.
 
 ## Funkcionális követelmények
 

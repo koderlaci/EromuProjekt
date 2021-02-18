@@ -3,6 +3,10 @@
 # Követelmény specifikáció
 
 ##  Áttekintés
+Egy olyan 2D platformer játékot fejlesztünk melyben a felhasználó egy posztapokaliptikus világban kell túlélnie saját maga által szerzett fegyverekkel. 
+A felhasználónak először csak egy pisztoly és egy bunkós bot áll a rendelkezésére, viszont a játék folyamán különböző módon lehetősége lesz új fegyverek megszerezésére. 
+A felhasználó célja, hogy az előtte álló akadályokon átküzdve magát kideritse, hogy mi rejlik az Ózdi Atomérőmű katasztrófa hátterében. 
+A felhasználó egy megadott sorrendben tudja feloldani a pályákat azok teljesitésével, viszont később visszatérhet bármelyik feloldott pályára. 
 
 
 ## Jelenlegi helyzet

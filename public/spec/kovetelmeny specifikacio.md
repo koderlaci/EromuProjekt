@@ -31,6 +31,12 @@ A pályák előtt kiválaszthatjuk, hogy a karakterünk milyen felszerelést hoz
 Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az adott pályát kell előről kezdenünk.
 
 ## Funkcionális követelmények
+### Pálya rendszer:
+- Megtekinhetőek a pályák nevei
+- Azokhoz tartozó képek
+- Az, hogy teljesitett-e az adott pálya
+- A teljesitmény szintje
+- A rejtett tárgy meg lett-e találva
 
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás

@@ -85,6 +85,12 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Bázison is lehet tárolni itemeket
 - Lapozható raktárabalakok
 
+### Ellenségek
+- Különféle típusúak
+- A játékos érzékelésekor támadnak
+- Lehet tőlük zsákmányolni
+- Küldetésekben lehet szerepük
+
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 ### Rendszerszabványok:

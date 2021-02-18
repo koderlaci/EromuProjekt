@@ -118,6 +118,9 @@ van benne kihívás és hosszan tartó szórakoztató játékélmény.
 
 ## Használati esetek
 
+### Ábra
+![Képernyőterv](../images/UserCase.png)
+
 
 ## Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 - A felhasználó a "Start" gombra kattintva elkezdheti a játékot.

@@ -21,7 +21,12 @@ Tehát a fő cél a felhasználó szórakoztatása egy történet alapú, lövö
 
 
 ## Funkcionális terv
+	Rendszerszereplők:
+		Felhasználó.
 
+	Rendszerhasználati esetek:
+		Telepítés.
+		Játék.
 
 ## Fizikai környezet
 

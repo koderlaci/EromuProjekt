@@ -49,6 +49,11 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Fegyverek lövése
 - Fegyverek újratöltése
 - Ammunició követése
+### Mozgás rendszer
+- Jobbra való mozgás
+- Balra való mozgás
+- Ugrás
+- Falon ugrás
 
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás

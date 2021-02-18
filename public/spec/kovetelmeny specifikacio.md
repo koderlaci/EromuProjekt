@@ -42,6 +42,13 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Összes tárgy megtekintése gombnyomásra
 - Tárgyak használata
 - Tárgyak kidobása
+### Fegyver rendszer
+- Távolharci fegyverek
+- Közelharci fegyverek
+- Rejtett fegyverek
+- Fegyverek lövése
+- Fegyverek újratöltése
+- Ammunició követése
 
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás

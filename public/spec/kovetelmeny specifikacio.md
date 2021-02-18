@@ -37,6 +37,11 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Az, hogy teljesitett-e az adott pálya
 - A teljesitmény szintje
 - A rejtett tárgy meg lett-e találva
+### Felszerelés rendszer
+- Fontosabb felszerelésben szereplő tárgyak mindig láthatóak
+- Összes tárgy megtekintése gombnyomásra
+- Tárgyak használata
+- Tárgyak kidobása
 
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás

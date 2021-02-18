@@ -21,6 +21,12 @@ A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. M
 
 ## Jelenlegi üzleti folyamatok modellje
 
+### Az alábbi üzleti folyamatmodellt kell átalakítani az Igényelt üzleti folyamatok modellje c. fejezet alapján:
+- A megrendelő olyan céget üzemeltet, ahol hosszú és kihívást jelentő játékokat készítenek.
+- A játékok egy része platformer stílusú.
+- Az ügyfél nem elégedett a jelenlegi eladások számával.
+- Az eladások kevés száma azért van, mivel már egy ideje nem hoztak piacra új játékot.
+
 
 ## Igényelt üzleti folyamatok
 A játékokkal kapcsolatos elvárások és igények kielégítésére az ügyfél ötlete tökéletesen alkalmas.

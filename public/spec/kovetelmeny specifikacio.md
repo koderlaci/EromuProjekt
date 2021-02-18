@@ -7,6 +7,12 @@ Egy olyan 2D platformer játékot fejlesztünk melyben a felhasználó egy poszt
 A felhasználónak először csak egy pisztoly és egy bunkós bot áll a rendelkezésére, viszont a játék folyamán különböző módon lehetősége lesz új fegyverek megszerezésére. 
 A felhasználó célja, hogy az előtte álló akadályokon átküzdve magát kideritse, hogy mi rejlik az Ózdi Atomérőmű katasztrófa hátterében. 
 A felhasználó egy megadott sorrendben tudja feloldani a pályákat azok teljesitésével, viszont később visszatérhet bármelyik feloldott pályára. 
+A pályák elkezdése előtt kiválaszthatja, hogy milyen felszerelést kiván magával vinni. 
+Halál esetén csak a pályán megszerzett haladást vesztjük el. 
+A felhasználónak lehetősége lesz jobbra és balra mozogni, emellett ugrani. 
+A fegyver a kurzus felé fog mindig célozni. 
+Lehetőség lesz rejtett tárgyak megszerzésére a pályákon, ezek különleges tulajdonságokkal fognak birni. 
+A felhasználó mind távol, és közelharci fegyvert is használhat, a többi már csak azon múlik, hogy mit talál és mit választ. 
 
 
 ## Jelenlegi helyzet
@@ -25,48 +31,6 @@ A pályák előtt kiválaszthatjuk, hogy a karakterünk milyen felszerelést hoz
 Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az adott pályát kell előről kezdenünk.
 
 ## Funkcionális követelmények
-
-### Karakter irányítása
-- Jobbra, balra lehet mozogni
-- Ugrás és kúszás megvalósítása
-- Egérrel irányítható a lövedék iránya
-- Speciális képesség (pl. gránát eldobása)
-
-### Harcrendszer
-- Közelharci és lőfegyverekkel zajlik
-- Az alapvető fegyverek: kés és pisztoly
-- Speciális képességek különleges fegyvereket adnak
-- Ha 0-ra esik a HP-ja egy karakternek, meghal
-
-### Képességrendszer
-- Képességpontokat lehet gyűjteni
-- Ágakon lehet képességeket fejleszteni
-- Szintek alapján lehet fejleszteni
-- Bónuszokat adnak, ágakon lehet továbbvinni őket
-
-### Lootrendszer
-- Az ellenségek dobhatnak tárgyakat
-- A pályán vannak lootolható ládák
-- Növényeket is lehet gyűjteni
-- A pályán szétszórva itemek találhatók
-
-### Raktár
-- Itemek tárolása
-- Bővíthető (nagyobb táskával)
-- Bázison is lehet tárolni itemeket
-- Lapozható raktárabalakok
-
-### Ellenségek
-- Különféle típusúak
-- A játékos érzékelésekor támadnak
-- Lehet tőlük zsákmányolni
-- Küldetésekben lehet szerepük
-
-### Barátságos NPC-k
-- Történetet viszik előrébb
-- Küldetéseket adnak
-- Lehet tőlük tárgyakat vásárolni
-- El lehet nekik adni tárgyakat
 
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás

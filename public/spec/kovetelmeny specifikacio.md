@@ -54,6 +54,8 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Balra való mozgás
 - Ugrás
 - Falon ugrás
+- Kúszás
+- Egér irányába való lövés
 
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás

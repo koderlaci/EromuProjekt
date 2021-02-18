@@ -82,6 +82,12 @@ A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. M
 - Lehet tőlük tárgyakat vásárolni
 - El lehet nekik adni tárgyakat
 
+### Felhasználói felület:
+- Belépéskor választható menüpontok: Resume, Levels, Settings, Quit
+- Játék közben történő megállításkor a Levels helyett Save opció jelenik meg
+- A sarkokban mutatja a játékos életerejét, fegyverét és töltényeinek számát, leltárát és egyéb gombokat, mint pl.: Skills
+- Leltárban a fegyverekre húzva az egeret megjelennek annak statjai és a lehetséges tevékenységek
+
 ## Jelenlegi üzleti folyamatok modellje
 
 ### Az alábbi üzleti folyamatmodellt kell átalakítani az Igényelt üzleti folyamatok modellje c. fejezet alapján:

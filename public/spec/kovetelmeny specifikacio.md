@@ -73,6 +73,12 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Szintek alapján lehet fejleszteni
 - Bónuszokat adnak, ágakon lehet továbbvinni őket
 
+### Lootrendszer
+- Az ellenségek dobhatnak tárgyakat
+- A pályán vannak lootolható ládák
+- Növényeket is lehet gyűjteni
+- A pályán szétszórva itemek találhatók
+
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 ### Rendszerszabványok:

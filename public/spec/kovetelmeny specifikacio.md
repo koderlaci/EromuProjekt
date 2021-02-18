@@ -101,7 +101,19 @@ Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért eze
 - Poszt-apokaliptikus hangulat megteremtése a pálya-, karakter-, felszerelés-design elemeit illetően
 
 ## Riportok
-
+- Kivitelező: Kérem, mondja el mit szeretne!
+- Megrendelő: A játékokat forgalmazó cégem számára szeretnék egy játékot.
+- Kivitelező: Milyen típusú játékot szeretne?
+- Megrendelő: Egy 2D platformer játékot álmodtam meg, aminek a legfőbb témája az akció.
+- Kivitelező: Részletekbe merülően ki tudná fejteni az elképzeléseit?
+- Megrendelő: Hogyne, a játék története az lenne, hogy az ózdi atomerőmú megsemmisül és egy apokaliptikus környezetben mutánsokat és egyéb ellenségekre lehet lövöldözni, illetve a cél a mutáció ellenszerének a felfedezése lenne.
+- Kivitelező: És hogyan képzeli el a játékmenetet?
+- Megrendelő: Különböző pályákon kell küldetéseket teljesíteni és mindegyik pálya végén van egy boss, ami az ellenszerhez ad alkotóelemet.
+- Kivitekező: És milyen egyéb funkciókat képzel el az applikáció megjelenítését illetően?
+- Megrendelő: A beállítások menüpontban a gombokat jelenítse meg grafikusan a felület, illetve a menü egyéb funkcióinak a színhatása legyen egységes, valamiféle apokaliptkus hangultaot tükröző.
+- Kivitelező: Rendben. Egyéb kérés a játékfejlesztés menetével kapcsolatban?
+- Megrendelő: Azt szeretném, ha a cégük az eddigi játékfejlesztésből eredő tapasztalatainak a legjobbjait használná fel az applikáció elkészítése során.
+- Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 
 ## Fogalomtár
 -PC: Personal Computer

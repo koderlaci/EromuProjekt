@@ -22,6 +22,48 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 
 ## Funkcionális követelmények
 
+### Karakter irányítása
+- Jobbra, balra lehet mozogni
+- Ugrás és kúszás megvalósítása
+- Egérrel irányítható a lövedék iránya
+- Speciális képesség (pl. gránát eldobása)
+
+### Harcrendszer
+- Közelharci és lőfegyverekkel zajlik
+- Az alapvető fegyverek: kés és pisztoly
+- Speciális képességek különleges fegyvereket adnak
+- Ha 0-ra esik a HP-ja egy karakternek, meghal
+
+### Képességrendszer
+- Képességpontokat lehet gyűjteni
+- Ágakon lehet képességeket fejleszteni
+- Szintek alapján lehet fejleszteni
+- Bónuszokat adnak, ágakon lehet továbbvinni őket
+
+### Lootrendszer
+- Az ellenségek dobhatnak tárgyakat
+- A pályán vannak lootolható ládák
+- Növényeket is lehet gyűjteni
+- A pályán szétszórva itemek találhatók
+
+### Raktár
+- Itemek tárolása
+- Bővíthető (nagyobb táskával)
+- Bázison is lehet tárolni itemeket
+- Lapozható raktárabalakok
+
+### Ellenségek
+- Különféle típusúak
+- A játékos érzékelésekor támadnak
+- Lehet tőlük zsákmányolni
+- Küldetésekben lehet szerepük
+
+### Barátságos NPC-k
+- Történetet viszik előrébb
+- Küldetéseket adnak
+- Lehet tőlük tárgyakat vásárolni
+- El lehet nekik adni tárgyakat
+
 
 ## Rendszerre vonatkozó törvények, szabványok, ajánlás
 

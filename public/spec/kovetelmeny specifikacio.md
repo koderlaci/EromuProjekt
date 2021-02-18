@@ -31,17 +31,20 @@ A pályák előtt kiválaszthatjuk, hogy a karakterünk milyen felszerelést hoz
 Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az adott pályát kell előről kezdenünk.
 
 ## Funkcionális követelmények
+
 ### Pálya rendszer:
 - Megtekinhetőek a pályák nevei
 - Azokhoz tartozó képek
 - Az, hogy teljesitett-e az adott pálya
 - A teljesitmény szintje
 - A rejtett tárgy meg lett-e találva
+
 ### Felszerelés rendszer
 - Fontosabb felszerelésben szereplő tárgyak mindig láthatóak
 - Összes tárgy megtekintése gombnyomásra
 - Tárgyak használata
 - Tárgyak kidobása
+
 ### Fegyver rendszer
 - Távolharci fegyverek
 - Közelharci fegyverek
@@ -49,6 +52,13 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Fegyverek lövése
 - Fegyverek újratöltése
 - Ammunició követése
+
+### Harcrendszer
+- Közelharci és lőfegyverekkel zajlik
+- Az alapvető fegyverek: kés és pisztoly
+- Speciális képességek különleges fegyvereket adnak
+- Ha 0-ra esik a HP-ja egy karakternek, meghal
+
 ### Mozgás rendszer
 - Jobbra való mozgás
 - Balra való mozgás

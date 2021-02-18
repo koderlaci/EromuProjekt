@@ -64,6 +64,12 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Discord
 - Messenger
 
+#### Verziókövetés
+- Git
+- Github
+- Github Desktop
+- Gitkraken
+
 ## Jelenlegi üzleti folyamatok modellje
 Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért ezek más fajtájú, és más hangulatú játékok. Így ez a hiánypótló új ötlet régi köntösben rengeteg új játékost és profitot teremthet.
 

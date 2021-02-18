@@ -1,7 +1,17 @@
 
 # Funkcionális specifikáció
-##  Áttekintés
 
+##  Áttekintés
+Egy olyan asztali alkalmazást fejlesztünk, amelyben a felhasználó végigjátszhat egy történetet, miközben új felszereléseket és fegyvereket szerezhet, mindezt
+egy platformer stílusú, oldalnézetes játékban. A játék több különböző pályából fog állni. A felhasználó útja a program használata során rögzített, mivel a játék főhősének egy célja van, hogy kiderítse
+mi történt a környezetében, ehhez pedig feltétlen szükséges az összes pályán való végighaladás. A felhasználónak lehetősége lesz új fegyvereket és felszereléseket
+szereznie játék közben. Ennek az egyik módja az, hogy halad tovább a történetben és bizonyos pályák után automatikusan feloldódik és használhatóvá válik
+számára az adott felszerelés. A másik módhoz egy kis szerencse kell, ugyanis egyes pályákon elrejtünk pár különleges fegyvert vagy felszerelést, amelyek
+megszerzéséhez a felhasználónak egy rejtett dolgot kell megtalálnia vagy problémát megoldania.
+Minden pálya elvégzése után a felhasználónak lehetősége nyílik megváltoztatni a felszerelését, például ha kioldott egy új fegyvert és a továbbiakban
+a régi helyett azt szeretné használni.
+A karaktertünk halála esetén nem az egész játékot, csupán a megkezdett pályát kell előlről kezdeni.
+A játék akkor ér véget ha a felhasználó sikeresen teljesítette az összes pályát.
 
 ## Jelenlegi helyzet
 A megrendelő kérése egy régi klasszikusokat idéző, 2D alapú platformer. Melyet egyedi ötletével szeretné megvalósítani. Eddigi játékok során nem találkozott még olyannal, melyben egy felrobbant atomerőművet kell elhagyni és ezzel a különös ötlettel keresett meg minket. Mely szerinte betölti ezt a "piaci rést". Ezzel az újító ötlettel szeretne piaci és anyagi előnyökhöz jutni. A játékot a legnagyobb játékosközösség miatt, és így legtöbb profit miatt PC re kell fejleszteni.

@@ -70,6 +70,32 @@ Ezeket a scripteket amennyire csak lehet külön fájlokba írva készítjük, �
 
 ## Implementációs terv
 
+### A követelménylistában feltüntetett elemek implementálása:
+- Javarészt a Unity videójáték-motor segítségével
+- Gites verziókövetést használva
+- Trellon végzendő feladatkövetéssel
+- Csapatos meetingek során sprintekben
+- Tervezési minták szerint
+
+### Tervezési minták
+Ebben a pontban a tervezési minták konkrét eszközölését írjuk le.
+
+#### MVC
+A pályák adatbázismodellekre (model), nézetekre (view) és a kettőt összekötő logikára (controller) lesznek tagolva a könyvtárrendszerben.
+
+#### Singleton
+A főmenü csupán egyszer kerül majd példányosításra a játék indításakor, a pályákon való megállítások során ugyanezt a példányt fogja látni a játékos.
+
+#### Prototípus
+Egyes ellenségekből prototípust fogunk készíteni, és ezt a példányt klónozva különböző színösszeállítású szörnyeket fogunk generálni.
+
+#### Gyártófüggvény
+A főkarakter konstruktora kizárólag egy olyan függvény által kerülhet majd meghívásra, amely azt vizsgálja, hogy van-e még élete a játékosnak.
+Ha minden élete elfogyott, akkor a pálya újraindítása és a karakter újboli példányosítása helyett a "Game Over" felirat jelenik meg és véget ér a játék.
+
+#### Sablonfüggvény
+Ellenseg ősosztállyal rendelkező származtatott osztályok az ősük tuzeles() metódusát fogják override-olni, például: töltény helyett rakétát lőnek majd.
+
 
 ## Tesztterv
 A teszteléseink célja a teljes rendszer és annak minden játékmódja és azok minden komponensei 

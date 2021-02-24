@@ -16,6 +16,30 @@ Tehát a fő cél a felhasználó szórakoztatása egy történet alapú, lövö
 
 ## Üzleti folyamatok modellje
 
+### Megrendelő
+- A megrendelő olyan céget üzemeltet, ahol hosszú és kihívást jelentő játékokat készítenek.
+- A játékok egy része platformer stílusú.
+- Az ügyfél nem elégedett a jelenlegi eladások számával.
+- Az eladások kevés száma azért van, mivel már egy ideje nem hoztak piacra új játékot.
+
+A játékokkal kapcsolatos elvárások és igények kielégítésére az ügyfél ötlete tökéletesen alkalmas.
+Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek iránt, épp ezért a cél egy ilyen jellegű játék létrehozása. Mely alkalmazkodik az eddigi üzleti folyamatokhoz: van benne kihívás és hosszan tartó szórakoztató játékélmény.
+
+### Célok
+- Átlátható felhasználói felület készítése a játékhoz
+- Élvezetes játékmenet megvalósítása
+- A platformer játékok színesítése
+- Nagyob, közösségre alapuló projektek lehetőségeinek megteremtése
+- Többféle eszközről is játszható játék, ami növeli a népszerűséget
+- Új játékosbázis kialakítása
+- 
+### Előnyök
+- Új játékosbázis
+- Régi játékosok visszacsábítása a platformra
+- Új promóciós lehetőségek
+- Nagy profit
+- A játék jellegéből adódóan: népszerűség
+
 
 ## Követelmények
 

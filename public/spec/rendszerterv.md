@@ -43,6 +43,76 @@ Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek 
 
 
 ## Követelmények
+### Pálya rendszer:
+- Megtekinhetőek a pályák nevei
+- Azokhoz tartozó képek
+- Az, hogy teljesitett-e az adott pálya
+- A teljesitmény szintje
+- A rejtett tárgy meg lett-e találva
+
+### Felszerelés rendszer
+- Fontosabb felszerelésben szereplő tárgyak mindig láthatóak
+- Összes tárgy megtekintése gombnyomásra
+- Tárgyak használata
+- Tárgyak kidobása
+
+### Fegyver rendszer
+- Távolharci fegyverek
+- Közelharci fegyverek
+- Rejtett fegyverek
+- Fegyverek lövése
+- Fegyverek újratöltése
+- Ammunició követése
+
+### Harcrendszer
+- Közelharci és lőfegyverekkel zajlik
+- Az alapvető fegyverek: kés és pisztoly
+- Speciális képességek különleges fegyvereket adnak
+- Ha 0-ra esik a HP-ja egy karakternek, meghal
+
+### Mozgás rendszer
+- Jobbra való mozgás
+- Balra való mozgás
+- Ugrás
+- Falon ugrás
+- Kúszás
+- Egér irányába való lövés
+
+### Képességrendszer
+- Képességpontokat lehet gyűjteni
+- Ágakon lehet képességeket fejleszteni
+- Szintek alapján lehet fejleszteni
+- Bónuszokat adnak, ágakon lehet továbbvinni őket
+
+### Lootrendszer
+- Az ellenségek dobhatnak tárgyakat
+- A pályán vannak lootolható ládák
+- Növényeket is lehet gyűjteni
+- A pályán szétszórva itemek találhatók
+
+### Raktár
+- Itemek tárolása
+- Bővíthető (nagyobb táskával)
+- Bázison is lehet tárolni itemeket
+- Lapozható raktárabalakok
+
+### Ellenségek
+- Különféle típusúak
+- A játékos érzékelésekor támadnak
+- Lehet tőlük zsákmányolni
+- Küldetésekben lehet szerepük
+
+### Barátságos NPC-k
+- Történetet viszik előrébb
+- Küldetéseket adnak
+- Lehet tőlük tárgyakat vásárolni
+- El lehet nekik adni tárgyakat
+
+### Felhasználói felület:
+- Belépéskor választható menüpontok: Resume, Levels, Settings, Quit
+- Játék közben történő megállításkor a Levels helyett Save opció jelenik meg
+- A sarkokban mutatja a játékos életerejét, fegyverét és töltényeinek számát, leltárát és egyéb gombokat, mint pl.: Skills
+- Leltárban a fegyverekre húzva az egeret megjelennek annak statjai és a lehetséges tevékenységek
 
 
 ## Funkcionális terv

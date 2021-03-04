@@ -13,6 +13,20 @@ Tehát a fő cél a felhasználó szórakoztatása egy történet alapú, lövö
 
 ## Projektterv
 
+### Szerepkörök
+- Designer & Developer: Csontos Dominik
+- Senior Designer: Palotai Martin
+- Designer & Developer: Kóder László
+- Designer & Developer: Sirák Norbert
+
+### Egyéni Projekt Munkálatok
+- Design elkészítése: Csontos Dominik
+- Keretrendszer elkészítése: Palotai Martin
+
+### Közös feladatok
+- Követelmény Specifikáció megírásában történő közreműködés
+- Funkcionális Specifikáció megírásában történő közreműködés
+- Rendszerterv megírásában történő közreműködés
 
 ## Üzleti folyamatok modellje
 

@@ -16,8 +16,103 @@ Tehát a fő cél a felhasználó szórakoztatása egy történet alapú, lövö
 
 ## Üzleti folyamatok modellje
 
+A játékokkal kapcsolatos elvárások és igények kielégítésére az ügyfél ötlete tökéletesen alkalmas.
+Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek iránt, épp ezért a cél egy ilyen jellegű játék létrehozása. Mely alkalmazkodik az eddigi üzleti folyamatokhoz: van benne kihívás és hosszan tartó szórakoztató játékélmény.
+
+### Megrendelő
+- A megrendelő olyan céget üzemeltet, ahol hosszú és kihívást jelentő játékokat készítenek.
+- A játékok egy része platformer stílusú.
+- Az ügyfél nem elégedett a jelenlegi eladások számával.
+- Az eladások kevés száma azért van, mivel már egy ideje nem hoztak piacra új játékot.
+- A pandémia is befolyásolhatja a megrendelő bevételeit.
+
+### Célok
+- Átlátható felhasználói felület készítése a játékhoz
+- Élvezetes játékmenet megvalósítása
+- A platformer játékok színesítése
+- Nagyob, közösségre alapuló projektek lehetőségeinek megteremtése
+- Többféle eszközről is játszható játék, ami növeli a népszerűséget
+- Új játékosbázis kialakítása
+
+### Előnyök
+- Új játékosbázis
+- Régi játékosok visszacsábítása a platformra
+- Új promóciós lehetőségek
+- Nagy profit
+- A játék jellegéből adódóan: népszerűség
+
 
 ## Követelmények
+### Pálya rendszer:
+- Megtekinhetőek a pályák nevei
+- Azokhoz tartozó képek
+- Az, hogy teljesitett-e az adott pálya
+- A teljesitmény szintje
+- A rejtett tárgy meg lett-e találva
+
+### Felszerelés rendszer
+- Fontosabb felszerelésben szereplő tárgyak mindig láthatóak
+- Összes tárgy megtekintése gombnyomásra
+- Tárgyak használata
+- Tárgyak kidobása
+
+### Fegyver rendszer
+- Távolharci fegyverek
+- Közelharci fegyverek
+- Rejtett fegyverek
+- Fegyverek lövése
+- Fegyverek újratöltése
+- Ammunició követése
+
+### Harcrendszer
+- Közelharci és lőfegyverekkel zajlik
+- Az alapvető fegyverek: kés és pisztoly
+- Speciális képességek különleges fegyvereket adnak
+- Ha 0-ra esik a HP-ja egy karakternek, meghal
+
+### Mozgás rendszer
+- Jobbra való mozgás
+- Balra való mozgás
+- Ugrás
+- Falon ugrás
+- Kúszás
+- Egér irányába való lövés
+
+### Képességrendszer
+- Képességpontokat lehet gyűjteni
+- Ágakon lehet képességeket fejleszteni
+- Szintek alapján lehet fejleszteni
+- Bónuszokat adnak, ágakon lehet továbbvinni őket
+
+### Lootrendszer
+- Az ellenségek dobhatnak tárgyakat
+- A pályán vannak lootolható ládák
+- Növényeket is lehet gyűjteni
+- A pályán szétszórva itemek találhatók
+
+### Raktár
+- Itemek tárolása
+- Bővíthető (nagyobb táskával)
+- Bázison is lehet tárolni itemeket
+- Lapozható raktárabalakok
+
+### Ellenségek
+- Különféle típusúak
+- A játékos érzékelésekor támadnak
+- Lehet tőlük zsákmányolni
+- Küldetésekben lehet szerepük
+
+### Barátságos NPC-k
+- Történetet viszik előrébb
+- Küldetéseket adnak
+- Lehet tőlük tárgyakat vásárolni
+- El lehet nekik adni tárgyakat
+
+### Felhasználói felület:
+- Belépéskor választható menüpontok: Resume, Levels, Settings, Quit
+- Játék közben történő megállításkor a Levels helyett Save opció jelenik meg
+- A sarkokban mutatja a játékos életerejét, fegyverét és töltényeinek számát, leltárát és egyéb gombokat, mint pl.: Skills
+- Leltárban a fegyverekre húzva az egeret megjelennek annak statjai és a lehetséges tevékenységek
 
 ### Funkcionális követelmények
 - Mozgás: A karakternek képesnek kell lennie a nyilak vagy "WASD" gombok segítségével mozognia.
@@ -55,6 +150,32 @@ Ezeket a scripteket amennyire csak lehet külön fájlokba írva készítjük, �
 
 
 ## Implementációs terv
+
+### A követelménylistában feltüntetett elemek implementálása:
+- Javarészt a Unity videójáték-motor segítségével
+- Gites verziókövetést használva
+- Trellon végzendő feladatkövetéssel
+- Csapatos meetingek során sprintekben
+- Tervezési minták szerint
+
+### Tervezési minták
+Ebben a pontban a tervezési minták konkrét eszközölését írjuk le.
+
+#### MVC
+A pályák adatbázismodellekre (model), nézetekre (view) és a kettőt összekötő logikára (controller) lesznek tagolva a könyvtárrendszerben.
+
+#### Singleton
+A főmenü csupán egyszer kerül majd példányosításra a játék indításakor, a pályákon való megállítások során ugyanezt a példányt fogja látni a játékos.
+
+#### Prototípus
+Egyes ellenségekből prototípust fogunk készíteni, és ezt a példányt klónozva különböző színösszeállítású szörnyeket fogunk generálni.
+
+#### Gyártófüggvény
+A főkarakter konstruktora kizárólag egy olyan függvény által kerülhet majd meghívásra, amely azt vizsgálja, hogy van-e még élete a játékosnak.
+Ha minden élete elfogyott, akkor a pálya újraindítása és a karakter újboli példányosítása helyett a "Game Over" felirat jelenik meg és véget ér a játék.
+
+#### Sablonfüggvény
+Ellenseg ősosztállyal rendelkező származtatott osztályok az ősük tuzeles() metódusát fogják override-olni, például: töltény helyett rakétát lőnek majd.
 
 
 ## Tesztterv

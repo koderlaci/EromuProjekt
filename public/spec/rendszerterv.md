@@ -19,6 +19,17 @@ Tehát a fő cél a felhasználó szórakoztatása egy történet alapú, lövö
 
 ## Követelmények
 
+### Funkcionális követelmények
+- Mozgás: A karakternek képesnek kell lennie a nyilak vagy "WASD" gombok segítségével mozognia.
+- Tüzelés: A karakternek képesnek kell lennie a "szóköz" gomb megnyomásával elsütni az éppen kézben tartott fegyverét.
+- Újratöltés: A karakternek képesnek kell lennie az "R" gomb megnyomásával újratölteni a fegyverét.
+- Interakció: A karakternek képesnek kell lennie a pálya néhány elemével interakcióba lépni az "Enter" gomb megnyomásával.
+- Felszerelés: A karakternek a következő pálya előtt mindig kiválaszthatjuk, hogy milyen felszerelést hozzon magával legközelebb.
+
+### Nem funkcionális követelmények
+- Ikonok használata a fegyverek és felszerelések megkülönböztetésére.
+- Felhasználóbarát grafikus interface kialakítása, melyet könnyű átlátni és kezelni.
+- Poszt-apokaliptikus hangulat megteremtése a pálya-, karakter-, felszerelés-design elemeit illetően
 
 ## Funkcionális terv
 	Rendszerszereplők:

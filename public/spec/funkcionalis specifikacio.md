@@ -165,4 +165,7 @@ Indításkor egy menü fogadja a játékost. Ahol indíthat új játékot, bell�
 
 
 ## Fogalomszótár
+-PC: Personal Computer
+-2D: 2 dimenziós játék
+-Platformer: A platformjáték egy videójáték-műfaj, az akciójáték alműfaja. A játékos által irányított karakternek platformokon keresztül kell ugrálnia és/vagy különböző akadályokat kell átugrania. A játékos feladata, hogy a karakterével megfelelő időben ugorjon, hogy tovább tudjon menni vagy ne essen le.
 

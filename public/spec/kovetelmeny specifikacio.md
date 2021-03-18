@@ -126,7 +126,9 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 Jelenleg a játékipar, más irányú játékok felé orientálódik. Ezért ezek más fajtájú, és más hangulatú játékok. Így ez a hiánypótló új ötlet régi köntösben rengeteg új játékost és profitot teremthet.
 
 ## Igényelt üzleti folyamatok
-
+A játékokkal kapcsolatos elvárások és igények kielégítésére az ügyfél ötlete tökéletesen alkalmas.
+Egyre népszerűbbé válnak a pixelArt platformer játékok napjainkban, a növekvő nosztalgiafaktor miatt.
+Az igény továbbra is a jelenlegi üzleti folyamatokhoz kapcsolódik: hosszan tartó játékélmény, kihívással párosítva.
 
 ## Követelménylista
 

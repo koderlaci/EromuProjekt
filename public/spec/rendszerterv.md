@@ -148,10 +148,10 @@ Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek 
 
 ## Fizikai környezet
 A teszt Windows, macOS, illetve Linux operációs rendszereken futtatható.
--Nincsenek megvásárolt komponenseink.
--Fejlesztői eszközök:
-	-Unity
-	-C#
+- Nincsenek megvásárolt komponenseink.
+- Fejlesztői eszközök:
+	- Unity
+	- C#
 
 ## Architekturális terv
 
@@ -160,10 +160,6 @@ A játék megvalósítását a Unity nevű programmal tervezzük megvalósítani
 Ezeket a scripteket amennyire csak lehet külön fájlokba írva készítjük, és
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
 és könnyebb bővítés érdekében. Az egyedi eseteket leszámítva.
-
-
-## Adatbázis terv
-
 
 ## Implementációs terv
 ### A követelménylistában feltüntetett elemek implementálása:

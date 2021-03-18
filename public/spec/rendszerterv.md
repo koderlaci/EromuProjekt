@@ -147,7 +147,11 @@ Az emberek manapság sokkal inkább érdeklődnek a retro jellegű platformerek 
 		Játék.
 
 ## Fizikai környezet
-
+A teszt Windows, macOS, illetve Linux operációs rendszereken futtatható.
+Nincsenek megvásárolt komponenseink.
+Fejlesztői eszközök:
+	Unity
+	C#
 
 ## Architekturális terv
 

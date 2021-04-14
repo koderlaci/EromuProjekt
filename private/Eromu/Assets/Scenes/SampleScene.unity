@@ -1971,6 +1971,7 @@ GameObject:
   - component: {fileID: 2047725476}
   - component: {fileID: 2047725479}
   - component: {fileID: 2047725478}
+  - component: {fileID: 2047725480}
   m_Layer: 0
   m_Name: Dubby
   m_TagString: Player
@@ -2089,6 +2090,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.352686, y: 2.85963}
   m_EdgeRadius: 0
+--- !u!114 &2047725480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047725475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b9bf2050debda4bbce80c3e5312e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "sebess\xE9g": 7
 --- !u!1 &2063754753
 GameObject:
   m_ObjectHideFlags: 0

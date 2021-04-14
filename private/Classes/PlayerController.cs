@@ -16,9 +16,13 @@ public class PlayerController : MonoBehaviour
         PlayerModel.SetLifesAtLevelBegin();
     }
   
-    
     void Update ()
     {
         
+    }
+	
+	void OnTriggerEnter2D(Collider2D other)
+    {
+    	
     }
 }

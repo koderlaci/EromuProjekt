@@ -45,5 +45,10 @@ public class PlayerController : MonoBehaviour
 		{
     		// Animáció váltás a fegyverrel
 		}
+		
+		if(other.tag == "Checkpoint")
+    	{
+    		// A respawn helye a checkpoint koordinátáin lesznek
+    	}
     }
 }

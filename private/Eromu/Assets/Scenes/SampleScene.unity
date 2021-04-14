@@ -2037,7 +2037,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047725475}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.67, y: -3.4794, z: -1}
+  m_LocalPosition: {x: -5.67, y: -3.4794, z: -1.1}
   m_LocalScale: {x: 0.25, y: 0.24397859, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2099,10 +2099,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2047725475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b9bf2050debda4bbce80c3e5312e21, type: 3}
+  m_Script: {fileID: 11500000, guid: 126bc8797f3a2564aa18dd277fb3a1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   "sebess\xE9g": 7
+  "magass\xE1g": 2
 --- !u!1 &2063754753
 GameObject:
   m_ObjectHideFlags: 0

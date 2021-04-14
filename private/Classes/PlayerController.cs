@@ -50,5 +50,10 @@ public class PlayerController : MonoBehaviour
     	{
     		// A respawn helye a checkpoint koordinátáin lesznek
     	}
+		
+		if(other.tag == "Finish")
+    	{
+    		// Betölt a főmenü
+    	}
     }
 }

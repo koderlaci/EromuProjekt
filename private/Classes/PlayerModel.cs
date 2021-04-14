@@ -18,4 +18,17 @@ public class PlayerModel : MonoBehaviour
 		this.hitponts = 100;
 		this.currentWeapon = new Pistol();
 	}
+	
+	// Factory:
+	public void createPlayerModel ()
+	{
+		if (this.lifes > 0) 
+		{
+			return new PlayerModel();
+		}
+		else
+		{
+			return null; // Game Over
+		}
+	}
 }

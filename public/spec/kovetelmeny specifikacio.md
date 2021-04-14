@@ -58,6 +58,7 @@ Halál esetén nem kell újból kezdeni az egész játékot, ilyenkor csupán az
 - Az alapvető fegyverek: kés és pisztoly
 - Speciális képességek különleges fegyvereket adnak
 - Ha 0-ra esik a HP-ja egy karakternek, meghal
+- Ha meghal a karakter, az külön animációt kap
 
 ### Mozgás rendszer
 - Jobbra való mozgás

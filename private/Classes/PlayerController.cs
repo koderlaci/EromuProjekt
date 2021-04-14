@@ -40,5 +40,10 @@ public class PlayerController : MonoBehaviour
     			}
     		}
     	}
+		
+		if(other.tag == "Weapon")
+		{
+    		// Animáció váltás a fegyverrel
+		}
     }
 }

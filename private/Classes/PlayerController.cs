@@ -23,6 +23,22 @@ public class PlayerController : MonoBehaviour
 	
 	void OnTriggerEnter2D(Collider2D other)
     {
-    	
+    	if(other.tag == "Enemy")
+    	{
+    		// A player sebződik az enemy damage értékével
+    		// player.LoseHitpoints(other.enemy.GetDamage());
+
+    		if(player.Hitpoints <= 0)
+    		{
+    			// A játékos az előző checkpointhoz kerül vissza
+    			PlayerModel.LoseOneLife();
+    			player = new PlayerModel();
+
+    			if(player == null)
+    			{
+    				// Game Over
+    			}
+    		}
+    	}
     }
 }

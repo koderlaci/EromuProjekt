@@ -50,4 +50,10 @@ public class PlayerModel : MonoBehaviour
 	{
 		this.lifes = this.lifes - 1;
 	}
+	
+	// At the beginning of each level, set lifes value
+	public static void SetLifesAtLevelBegin()
+	{
+		this.lifes = 3;
+	}
 }

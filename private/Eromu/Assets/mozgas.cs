@@ -20,7 +20,7 @@ public class mozgas : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump"))
         {
-            gameObject.GetComponent<Rigidbody2D>().Addforce(new Vector2(0f, 5f), ForceMode2D.Impulse);
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 7f), ForceMode2D.Impulse);
         }
     }
 }

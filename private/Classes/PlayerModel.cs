@@ -44,4 +44,10 @@ public class PlayerModel : MonoBehaviour
 			this.hitponts = 0;
 		}
 	}
+	
+	// Lose one life method:
+	public void LoseOneLife()
+	{
+		this.lifes = this.lifes - 1;
+	}
 }

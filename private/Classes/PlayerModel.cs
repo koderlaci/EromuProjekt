@@ -31,4 +31,17 @@ public class PlayerModel : MonoBehaviour
 			return null; // Game Over
 		}
 	}
+	
+	// Lose hitpoints method:
+	public void LoseHitpoints(int damage)
+	{
+		if (this.hitponts - damage > 0) 
+		{
+			this.hitponts = this._hitponts - damage;
+		}
+		else
+		{
+			this.hitponts = 0;
+		}
+	}
 }

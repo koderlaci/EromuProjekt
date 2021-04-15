@@ -10,12 +10,16 @@ public class mozgas : MonoBehaviour
     {
 
     }
+
+    // Update
     void Update()
     {
         Jump();
         Vector3 mozgás = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         transform.position += mozgás * Time.deltaTime * sebesség;
     }
+
+    // Jump
     void Jump()
     {
         if (Input.GetButtonDown("Jump"))

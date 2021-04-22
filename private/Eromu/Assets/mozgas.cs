@@ -6,6 +6,7 @@ public class mozgas : MonoBehaviour
 {
     // Start is called before the first frame update
     public float sebesség = 7f;
+    public float magasság = 5f;
     void Start()
     {
 
@@ -24,7 +25,7 @@ public class mozgas : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump"))
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 7f), ForceMode2D.Impulse);
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, magasság), ForceMode2D.Impulse);
         }
     }
 }

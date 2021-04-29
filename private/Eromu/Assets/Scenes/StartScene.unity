@@ -759,7 +759,7 @@ GameObject:
   - component: {fileID: 1018850829}
   - component: {fileID: 1018850830}
   m_Layer: 0
-  m_Name: IdleLeft
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -779,6 +779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   "sebess\xE9g": 7
   "magass\xE1g": 5
+  moveSpeed: 2
 --- !u!212 &1018850826
 SpriteRenderer:
   m_ObjectHideFlags: 0

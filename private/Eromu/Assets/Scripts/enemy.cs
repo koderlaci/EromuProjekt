@@ -24,7 +24,22 @@ public class enemy : MonoBehaviour
         {
             transform.Translate(-2 * speed * Time.deltaTime, 0, 0);
         }
+    }
 
-
+    void OnTriggerEnter2D(Collider2D trig)
+    {
+        if (trig.gameObject.CompareTag("Turn"))
+        {
+            if (MoveRight)
+            {
+                MoveRight = false;
+            }
+            else
+            {
+                MoveRight = true;
+            }
+        }
     }
 }
+
+

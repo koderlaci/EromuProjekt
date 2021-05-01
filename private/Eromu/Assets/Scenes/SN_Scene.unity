@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 29060397}
   - component: {fileID: 29060396}
+  - component: {fileID: 29060398}
   m_Layer: 0
   m_Name: grass_side (2)
   m_TagString: Untagged
@@ -202,6 +203,19 @@ Transform:
   m_Father: {fileID: 587987965}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &29060398
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29060395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &60197169
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,6 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 346616628}
   - component: {fileID: 346616627}
+  - component: {fileID: 346616629}
   m_Layer: 0
   m_Name: grass_side
   m_TagString: Untagged
@@ -364,6 +379,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &346616629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346616626}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &399821446
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 813204912}
   - component: {fileID: 813204911}
+  - component: {fileID: 813204913}
   m_Layer: 0
   m_Name: grass_side (5)
   m_TagString: Untagged
@@ -644,6 +673,19 @@ Transform:
   m_Father: {fileID: 587987965}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &813204913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813204910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &871454295
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,6 +696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 871454297}
   - component: {fileID: 871454296}
+  - component: {fileID: 871454298}
   m_Layer: 0
   m_Name: grass_side (4)
   m_TagString: Untagged
@@ -725,6 +768,19 @@ Transform:
   m_Father: {fileID: 587987965}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &871454298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871454295}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1444528308
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,6 +987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2020309226}
   - component: {fileID: 2020309225}
+  - component: {fileID: 2020309227}
   m_Layer: 0
   m_Name: grass_side (1)
   m_TagString: Untagged
@@ -1002,6 +1059,19 @@ Transform:
   m_Father: {fileID: 587987965}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2020309227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020309224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2130548070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1082,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2130548072}
   - component: {fileID: 2130548071}
+  - component: {fileID: 2130548073}
   m_Layer: 0
   m_Name: grass_side (3)
   m_TagString: Untagged
@@ -1083,3 +1154,16 @@ Transform:
   m_Father: {fileID: 587987965}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2130548073
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130548070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -13,6 +13,6 @@ public class Playerdeath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //karakter hozzáér a megfelelő triggerhez és emmiatt a poziciója visszakerül a start ra
     }
 }

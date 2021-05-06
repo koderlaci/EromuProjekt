@@ -1101,6 +1101,11 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 6200000, guid: fbce58300db924743999df7bda554e3b, type: 2}
+    - target: {fileID: 2689959207939133675, guid: fd92046d97857324c8efc81780e27089,
+        type: 3}
+      propertyPath: "sebess\xE9g"
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2689959207939133679, guid: fd92046d97857324c8efc81780e27089,
         type: 3}
       propertyPath: m_Name

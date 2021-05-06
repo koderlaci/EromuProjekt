@@ -15,5 +15,11 @@ public class Playerdeath : MonoBehaviour
     {
     }
     //karakter hozzáér a megfelelő triggerhez és emmiatt a poziciója visszakerül a start ra
-    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Death")
+        {
+            player.transform.position = new Vector3(-5, -2, 0);
+        }
+    }
 }

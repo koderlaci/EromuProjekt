@@ -395,9 +395,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 62fbffff
+      m_SelectedIDs: caf3ffff
+      m_LastClickedID: -3126
+      m_ExpandedIDs: 60f6ffff98f6ffff3efaffff4cfaffff62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -457,9 +457,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 48.395832, y: 9.48724, z: -90.05438}
+    m_Target: {x: 10.800334, y: -4.9192457, z: -92.709625}
     speed: 2
-    m_Value: {x: 48.395832, y: 9.48724, z: -90.05438}
+    m_Value: {x: 10.800334, y: -4.9192457, z: -92.709625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,9 +509,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.679787
+    m_Target: 9.098196
     speed: 2
-    m_Value: 26.679787
+    m_Value: 9.098196
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -601,11 +601,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\Dominik\\Desktop\\Internet Explorer\\Szop\xF3roller\\AFP
     intelligens m\xF3dszerek\\EromuProjekt\\private\\Eromu"
@@ -613,8 +613,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec3b0000
-    m_LastClickedID: 15340
+    m_SelectedIDs: d23b0000
+    m_LastClickedID: 15314
     m_ExpandedIDs: 00000000c23b0000c43b0000c63b0000c83b0000ca3b0000cc3b0000ce3b0000d03b0000d23b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

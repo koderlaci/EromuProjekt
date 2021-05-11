@@ -16,11 +16,11 @@ public class Bullet : MonoBehaviour
 
     void Trigger(Collider2D Hit)
     {
-        //Enemy enemy = Hit.GetComponent<Enemy>();
-        //if (enemy != null)
-        //{
-        //    enemy.TakeDamage(damage);
-        //}
+        Enemy enemy = Hit.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
 
         Instantiate(impactEffect, transform.position, transform.rotation);
 

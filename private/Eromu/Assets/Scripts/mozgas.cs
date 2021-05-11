@@ -33,15 +33,23 @@ public class mozgas : MonoBehaviour
             playerMoving = true;
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
         }
-        else
+        if (Input.GetButtonDown("Jump"))
+        {
+            playerJumping = true;
+            a.SetBool("Jumping", playerJumping);
+        }
+        else if (Input.GetButtonUp("Jump"))
         {
             playerJumping = false;
+            a.SetBool("Jumping", playerJumping);
         }
+
+
         a.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         a.SetFloat("Height", Input.GetAxisRaw("Vertical"));
         a.SetBool("Moving", playerMoving);
         a.SetFloat("LastMove", lastMove.x);
-        a.SetBool("Jumping", playerJumping);
+        
     }
 
     // Jump
@@ -50,8 +58,7 @@ public class mozgas : MonoBehaviour
         playerMoving = false;
         if (Input.GetButtonDown("Jump"))
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, magasság), ForceMode2D.Impulse);
-            playerJumping = true;
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, magasság), ForceMode2D.Impulse); 
         }
     }
 }

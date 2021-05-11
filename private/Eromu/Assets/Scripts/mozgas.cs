@@ -27,7 +27,13 @@ public class mozgas : MonoBehaviour
         
         Jump();
 
-        if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
+        if (Input.GetAxisRaw("Horizontal") > 0.5f)
+        {
+            transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
+            playerMoving = true;
+            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
+        }
+        if (Input.GetAxisRaw("Horizontal") < -0.5f)
         {
             transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
             playerMoving = true;

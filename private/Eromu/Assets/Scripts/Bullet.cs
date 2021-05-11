@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
         rb.velocity = transform.right * speed;
     }
 
-    void Trigger(Collider2D Hit)
+    void OnTriggerEnter2D(Collider2D Hit)
     {
         Enemy enemy = Hit.GetComponent<Enemy>();
         if (enemy != null)
@@ -23,7 +23,6 @@ public class Bullet : MonoBehaviour
         }
 
         Instantiate(impactEffect, transform.position, transform.rotation);
-
         Destroy(gameObject);
     }
 }

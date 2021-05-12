@@ -8,6 +8,9 @@ public class mozgas : MonoBehaviour
     public float sebesség = 7f;
     public float magasság = 5f;
 
+    public Transform GroundCheck1;
+    public LayerMask groundLayer;
+
     private Animator a;
     public float moveSpeed;
     public GameObject FirePoint;
@@ -50,7 +53,7 @@ public class mozgas : MonoBehaviour
             FirePoint.transform.localPosition = new Vector3(-0.5f, 0, 0);
             FirePoint.transform.rotation = new Quaternion(0, 180 , 0, 0);
         }
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             playerJumping = true;
             a.SetBool("Jumping", playerJumping);
@@ -68,13 +71,14 @@ public class mozgas : MonoBehaviour
         a.SetFloat("LastMove", lastMove.x);
         
     }
-    //bool IsGrounded() {
-    //    return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
-    //    }
-void Jump()
+    bool IsGrounded() {
+        return Physics2D.OverlapCircle(GroundCheck1.position, 0.15f, groundLayer);
+    }
+    void Jump()
     {
         playerMoving = false;
-        if (Input.GetButtonDown("Jump"))
+        Debug.Log(IsGrounded());
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, magasság), ForceMode2D.Impulse); 
         }

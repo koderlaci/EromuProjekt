@@ -1955,6 +1955,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass_03_0.5x Variant (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2033960412473695252, guid: 45b80516fbb1a7047802e8f5797db187,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76a473b8c726b0a4eb9b09b2211a638b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b80516fbb1a7047802e8f5797db187, type: 3}
 --- !u!4 &1322004833 stripped
@@ -2066,6 +2072,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass_03_0.5x Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2033960412473695252, guid: 45b80516fbb1a7047802e8f5797db187,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76a473b8c726b0a4eb9b09b2211a638b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b80516fbb1a7047802e8f5797db187, type: 3}
 --- !u!1 &1428978310
@@ -2524,6 +2536,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass_03_0.5x Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2033960412473695252, guid: 45b80516fbb1a7047802e8f5797db187,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76a473b8c726b0a4eb9b09b2211a638b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b80516fbb1a7047802e8f5797db187, type: 3}
 --- !u!4 &1797663189 stripped
@@ -2911,6 +2929,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: grass_03_0.5x
       objectReference: {fileID: 0}
+    - target: {fileID: 2033960412473695252, guid: 45b80516fbb1a7047802e8f5797db187,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76a473b8c726b0a4eb9b09b2211a638b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45b80516fbb1a7047802e8f5797db187, type: 3}
 --- !u!1001 &3814700855299285368
@@ -2989,6 +3013,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 502513563}
     m_Modifications:
+    - target: {fileID: 3651525768606006238, guid: d1c2b872fbe25b44aabcfab0f856cd64,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76a473b8c726b0a4eb9b09b2211a638b,
+        type: 3}
     - target: {fileID: 4312286628676143904, guid: d1c2b872fbe25b44aabcfab0f856cd64,
         type: 3}
       propertyPath: m_RootOrder

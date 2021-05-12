@@ -24,41 +24,39 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    //public float speed;
-    //public bool MoveRight;
-    // Start is called before the first frame update
-    //void Start()
-    //{
-        
-    //}
+    public float speed;
+    public bool MoveRight;
+    void Start()
+    {
 
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if (MoveRight)
-    //    {
-    //        transform.Translate(2 * speed * Time.deltaTime, 0, 0);
-    //    }
-    //    else
-    //    {
-    //        transform.Translate(-2 * speed * Time.deltaTime, 0, 0);
-    //    }
-    //}
+    }
 
-    //void OnTriggerEnter2D(Collider2D trig)
-    //{
-    //    if (trig.gameObject.CompareTag("Turn"))
-    //    {
-    //        if (MoveRight)
-    //        {
-    //            MoveRight = false;
-    //        }
-    //        else
-    //        {
-    //            MoveRight = true;
-    //        }
-    //    }
-    //}
+    void Update()
+    {
+        if (MoveRight)
+        {
+            transform.Translate(2 * speed * Time.deltaTime, 0, 0);
+        }
+        else
+        {
+            transform.Translate(-2 * speed * Time.deltaTime, 0, 0);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D trig)
+    {
+        if (trig.gameObject.CompareTag("Turn"))
+        {
+            if (MoveRight)
+            {
+                MoveRight = false;
+            }
+            else
+            {
+                MoveRight = true;
+            }
+        }
+    }
 }
 
 

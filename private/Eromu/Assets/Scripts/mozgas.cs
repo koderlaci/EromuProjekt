@@ -14,10 +14,13 @@ public class mozgas : MonoBehaviour
 
     private bool playerMoving;
     private bool playerJumping;
+    private float distToGround;
     private Vector2 lastMove;
 
     void Start()
     {
+
+        distToGround = gameObject.GetComponent<Collider2D>().bounds.extents.y;
         a = GetComponent<Animator>();
     }
 
@@ -63,9 +66,10 @@ public class mozgas : MonoBehaviour
         a.SetFloat("LastMove", lastMove.x);
         
     }
-
-    // Jump
-    void Jump()
+    //bool IsGrounded() {
+    //    return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f);
+    //    }
+void Jump()
     {
         playerMoving = false;
         if (Input.GetButtonDown("Jump"))

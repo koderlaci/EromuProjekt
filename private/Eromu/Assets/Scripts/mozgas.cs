@@ -37,6 +37,7 @@ public class mozgas : MonoBehaviour
             playerMoving = true;
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
             
+            FirePoint.transform.localPosition = new Vector3(0.350f, 0, 0);
             FirePoint.transform.rotation = new Quaternion(0,0,0,0);
 
         }
@@ -46,6 +47,7 @@ public class mozgas : MonoBehaviour
             playerMoving = true;
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
 
+            FirePoint.transform.localPosition = new Vector3(-0.5f, 0, 0);
             FirePoint.transform.rotation = new Quaternion(0, 180 , 0, 0);
         }
         if (Input.GetButtonDown("Jump"))

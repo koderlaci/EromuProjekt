@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 130
+  controlID: 128
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -420,7 +420,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 6c3c0000
     m_LastClickedID: 15468
-    m_ExpandedIDs: 00000000a83c0000
+    m_ExpandedIDs: 00000000b43c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a83c0000
+    m_ExpandedIDs: 00000000b43c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,9 +562,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 803a0000
-      m_LastClickedID: 14976
-      m_ExpandedIDs: 62fbffff
+      m_SelectedIDs: 1afaffff
+      m_LastClickedID: -1510
+      m_ExpandedIDs: 26faffff42fbffff3c3a0000943a0000bc3a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.284075, y: -1.8893504, z: -11.606323}
+    m_Target: {x: 5.4414682, y: -1.8677361, z: -12.840622}
     speed: 2
-    m_Value: {x: 14.544603, y: -1.906719, z: -11.589598}
+    m_Value: {x: 5.4414682, y: -1.8677361, z: -12.840622}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -676,9 +676,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.440753
+    m_Target: 2.646
     speed: 2
-    m_Value: 4.650003
+    m_Value: 2.646
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -768,20 +768,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Pictures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Pictures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity Git\EromuProjekt\private\Eromu
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a83c0000
-    m_LastClickedID: 15528
-    m_ExpandedIDs: 00000000a83c000000ca9a3b
+    m_SelectedIDs: c43c0000
+    m_LastClickedID: 15556
+    m_ExpandedIDs: 00000000b43c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -809,7 +809,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a83c0000
+    m_ExpandedIDs: 00000000b43c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -836,7 +836,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ea390000fa800000d45f00009e6b00001a560000345b0000c2530000743b0000ea3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -1680,6 +1680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1209763582}
+  Fadeimg: {fileID: 1289103260}
 --- !u!4 &1209763589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2689959207939133685, guid: fd92046d97857324c8efc81780e27089,

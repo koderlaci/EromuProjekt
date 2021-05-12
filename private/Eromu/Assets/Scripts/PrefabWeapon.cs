@@ -6,12 +6,14 @@ public class PrefabWeapon : MonoBehaviour {
 
 	public Transform firePoint;
 	public GameObject bulletPrefab;
+	public AudioSource gunShot;
 	
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown("Fire1"))
 		{
 			Shoot();
+			gunShot.Play();
 		}
 	}
 

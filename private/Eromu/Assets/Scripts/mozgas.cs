@@ -15,8 +15,6 @@ public class mozgas : MonoBehaviour
     private bool playerMoving;
     private bool playerJumping;
     private Vector2 lastMove;
-    private bool playerFirePointMovingRight = false;
-    private bool playerFirePointMovingLeft = false;
 
     void Start()
     {
@@ -32,29 +30,20 @@ public class mozgas : MonoBehaviour
 
         if (Input.GetAxisRaw("Horizontal") > 0.5f)
         {
-            playerFirePointMovingLeft = false;
             transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
             playerMoving = true;
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
             
-            if (!playerFirePointMovingRight)
-            {
-                FirePoint.transform.Rotate(0f, 180f, 0f);
-                playerFirePointMovingRight = true;
-            }
+            FirePoint.transform.rotation = new Quaternion(0,0,0,0);
+
         }
         if (Input.GetAxisRaw("Horizontal") < -0.5f)
         {
-            playerFirePointMovingRight = false;
             transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
             playerMoving = true;
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
 
-            if (!playerFirePointMovingLeft)
-            {
-                FirePoint.transform.Rotate(0f, -180f, 0f);
-                playerFirePointMovingLeft = true;
-            }
+            FirePoint.transform.rotation = new Quaternion(0, 180 , 0, 0);
         }
         if (Input.GetButtonDown("Jump"))
         {

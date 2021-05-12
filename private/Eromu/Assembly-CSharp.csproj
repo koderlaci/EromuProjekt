@@ -94,7 +94,6 @@
      <Compile Include="Assets\Scripts\Fade.cs" />
      <Compile Include="Assets\Scripts\Playerdeath.cs" />
      <Compile Include="Assets\Scripts\PrefabWeapon.cs" />
-     <Compile Include="Assets\Scripts\RayCastWeapon.cs" />
      <Compile Include="Assets\Scripts\mozgas.cs" />
      <None Include="Assets\All other assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\All other assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

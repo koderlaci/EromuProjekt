@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
     public int health = 100;
 
     public GameObject deathEffect;
+    public bool isBoss;
 
     public void TakeDamage(int damage)
     {
@@ -21,6 +23,8 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         //Instantiate(deathEffect, transform.position, Quaternion.identity);
+        if(isBoss)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Destroy(gameObject);
     }
 
@@ -28,7 +32,8 @@ public class Enemy : MonoBehaviour
     public bool MoveRight;
     void Start()
     {
-
+        if (isBoss)
+            health = 5 * health;
     }
 
     void Update()

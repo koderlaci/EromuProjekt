@@ -43,6 +43,61 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
+    Assets/Scenes/End Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11330}
+    - Class: 114
+      Script: {instanceID: 11354}
+    - Class: 114
+      Script: {instanceID: 12368}
+    - Class: 114
+      Script: {instanceID: 12408}
+    - Class: 114
+      Script: {instanceID: 13088}
+    - Class: 114
+      Script: {instanceID: 13444}
+    - Class: 114
+      Script: {instanceID: 13780}
+    - Class: 114
+      Script: {instanceID: 13886}
+    - Class: 114
+      Script: {instanceID: 14528}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Main Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -704,7 +759,7 @@ ScriptsOnlyBuild:
     className: AudioTrack
   - hash:
       serializedVersion: 2
-      Hash: cb4966b6d5b20b85e2e46ee87765e1ae
+      Hash: 68d13c88beada9be33f2689f749e8759
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -922,4 +977,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Main Scene.unity
+  - Assets/Scenes/End Scene.unity
   playerPath: C:/Unity Git/EromuProjekt/private/Eromu/Build/Eromu.exe
